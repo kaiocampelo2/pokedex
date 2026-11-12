@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalhes do Pokémon</title>
+  <link rel="stylesheet" href="assets/css/global.css">
+  <link rel="stylesheet" href="assets/css/details.css">
+  <script src="assets/js/details.js" defer></script>
+</head>
+<body>
+  <main class="pokemon-detail">
+    <header class="pokemon-header">
+      <a class="back-button" href="index.html" aria-label="Voltar para Pokédex">←</a>
+      <span id="pokemon-number">#---</span>
+      <h1 id="pokemon-name">Carregando...</h1>
+      <ol class="types" id="pokemon-types"></ol>
+      <div class="pokemon-image"><img id="pokemon-image" alt="Imagem do Pokémon"></div>
+    </header>
+    <div class="detail">
+      <nav class="det-link" aria-label="Informações do Pokémon">
+        <a href="#about" class="active">About</a>
+        <a href="#stats">Base Stats</a>
+        <a href="#evolution">Evolution</a>
+        <a href="#moves">Moves</a>
+      </nav>
+      <section class="about" id="about">
+        <div class="info-item"><span>Species</span><span id="pokemon-species">Em breve</span></div>
+        <div class="info-item"><span>Height</span><span id="pokemon-height"></span></div>
+        <div class="info-item"><span>Weight</span><span id="pokemon-weight"></span></div>
+        <div class="info-item"><span>Abilities</span><span id="pokemon-ability"></span></div>
+        <h3>Breeding</h3>
+        <p class="placeholder">Informações de reprodução: próxima etapa.</p>
+      </section>
+      <section class="stats" id="stats" hidden><p class="placeholder">Base Stats: próxima etapa.</p></section>
+      <section class="evolution" id="evolution" hidden><p class="placeholder">Evolution: próxima etapa.</p></section>
+      <section class="moves" id="moves" hidden><p class="placeholder">Moves: próxima etapa.</p></section>
+      <p id="detail-status" role="status"></p>
+    </div>
+  </main>
+</body>
+</html>

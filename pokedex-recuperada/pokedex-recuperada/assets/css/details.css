@@ -1,0 +1,113 @@
+body{
+    background:#f6f8fa
+}
+.pokemon-detail{
+    max-width:1200px;
+    min-height:100vh;
+    margin:0 auto;
+    background:#77c850
+}
+.pokemon-header{
+    padding:1.5rem 1.5rem 0;
+    color:#fff;
+    min-height:350px;
+    display:flex;
+    flex-direction:column;
+    position:relative
+}
+.back-button{
+    align-self:flex-start;
+    font-size:2rem;
+    text-decoration:none;
+    line-height:1
+}
+.pokemon-header #pokemon-number{
+    align-self:flex-end;
+    font-weight:700;
+    opacity:.8
+}
+.pokemon-header h1{
+    text-transform:capitalize;
+    text-align: center;
+    font-size:2rem;
+    margin:.2rem 0
+}
+.pokemon-header ol{
+    justify-content:center;
+}
+.pokemon-header .pokemon-image{
+    height:195px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    z-index:2
+}
+.pokemon-header img{
+    height:215px;
+    max-width:90%;
+    object-fit:contain;
+    filter:drop-shadow(0 10px 8px #0002)
+}
+.detail{
+    background:#fff;
+    min-height:610px;
+    border-radius:2rem 2rem 0 0;
+    margin-top:-1rem;
+    padding:3rem 1.5rem 2rem
+}
+.det-link{
+    display:flex;
+    justify-content:space-between;
+    gap:.4rem;
+    border-bottom:1px solid #eee;
+    margin-bottom:1.8rem
+}
+.det-link a{
+    font-size:.85rem;
+    text-decoration:none;
+    color:#8a8a8a;
+    padding:.6rem .15rem;
+    border-bottom:2px solid transparent
+}
+.det-link a.active{
+    color:#303030;
+    font-weight:700;
+    border-color:#6b88cd
+}
+.info-item{
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+.info-item span:first-child{
+    color:#8a8a8a;
+    width: 40%;
+}
+.detail h3{
+    margin-top:2rem
+}
+.placeholder{
+    color:#888;
+    font-size:.9rem
+}
+[hidden]{
+    display:none!important
+}
+.pokemon-detail.grass{background:#65a843}
+.pokemon-detail.fire{background:#e65a3a}
+.pokemon-detail.water{background:#5395d0}
+.pokemon-detail.electric{background:#e6b72d}
+.pokemon-detail.poison{background:#9865b0}
+.pokemon-detail.bug{background:#8ca52b}
+.pokemon-detail.normal{background:#9a9b8c}
+.pokemon-detail.ground{background:#b79b55}
+.pokemon-detail.fairy{background:#d88eb4}
+.pokemon-detail.fighting{background:#bc594a}
+.pokemon-detail.psychic{background:#dc6894}
+.pokemon-detail.rock{background:#aa9757}
+.pokemon-detail.ghost{background:#7468a1}
+.pokemon-detail.ice{background:#6fb5c4}
+.pokemon-detail.dragon{background:#7764bd}
+.pokemon-detail.dark{background:#6d625c}
+.pokemon-detail.steel{background:#8a9ba9}
+.pokemon-detail.flying{background:#8b9fc6}
