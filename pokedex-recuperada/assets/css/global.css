@@ -1,0 +1,2 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+:root{font-family:Roboto,Arial,sans-serif;color:#20232a;background:#f6f8fa}*{box-sizing:border-box}body{margin:0}button,a{font:inherit}button{cursor:pointer}a{color:inherit}ol{padding:0;list-style:none}.types{display:flex;flex-wrap:wrap;gap:.45rem;margin:.7rem 0}.type{border-radius:1rem;padding:.3rem .8rem;background:rgba(255,255,255,.23);color:#fff;font-size:.78rem;text-transform:capitalize}#list-status,#detail-status{color:#666;font-size:.9rem}
